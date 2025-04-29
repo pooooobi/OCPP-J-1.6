@@ -40,6 +40,9 @@ dependencies {
 
     // Netty
     implementation("io.netty:netty-all:4.2.0.Final")
+
+    // Gson
+    implementation("com.google.code.gson:gson:2.13.1")
 }
 
 tasks.named('test') {
